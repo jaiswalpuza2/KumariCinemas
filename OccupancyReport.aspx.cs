@@ -53,12 +53,12 @@ namespace MovieTicketSystem
         {
             using (OracleConnection con = new OracleConnection(connStr))
             {
-                // Complex query to get top 3 theater occupancy for a movie
-                // Aggregates paid tickets across all showtimes of that movie in each theater
+      
                 string query = @"SELECT * FROM (
                                     SELECT th.THEATER_NAME, th.CAPACITY, COUNT(tk.TICKET_ID) as PAID_TICKETS,
                                     CASE 
-                                        WHEN th.CAPACITY > 0 THEN (COUNT(tk.TICKET_ID) / (th.CAPACITY * (SELECT COUNT(*) FROM SHOWTIMES s2 WHERE s2.THEATER_ID = th.THEATER_ID AND s2.MOVIE_ID = :MovieId))) * 100 
+                                        WHEN th.CAPACITY > 0 AND (SELECT COUNT(*) FROM SHOWTIMES s2 WHERE s2.THEATER_ID = th.THEATER_ID AND s2.MOVIE_ID = :MovieId) > 0 
+                                        THEN ROUND((COUNT(tk.TICKET_ID) / (th.CAPACITY * (SELECT COUNT(*) FROM SHOWTIMES s2 WHERE s2.THEATER_ID = th.THEATER_ID AND s2.MOVIE_ID = :MovieId))) * 100, 2)
                                         ELSE 0 
                                     END as OCCUPANCY_PERCENT
                                     FROM THEATERCITYHALL th
@@ -69,7 +69,7 @@ namespace MovieTicketSystem
                                     ORDER BY OCCUPANCY_PERCENT DESC
                                  ) WHERE ROWNUM <= 3";
                 
-                // Note: The calculation above assumes occupancy is (total paid tickets) / (capacity * number of shows)
+               
                 
                 OracleDataAdapter da = new OracleDataAdapter(query, con);
                 da.SelectCommand.Parameters.Add(":MovieId", movieId);

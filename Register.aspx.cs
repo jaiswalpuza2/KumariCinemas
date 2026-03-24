@@ -1,7 +1,6 @@
 using System;
 using Oracle.ManagedDataAccess.Client;
 using System.Configuration;
-
 namespace MovieTicketSystem
 {
     public partial class Register : System.Web.UI.Page
@@ -12,8 +11,7 @@ namespace MovieTicketSystem
             using (OracleConnection con = new OracleConnection(ConfigurationManager.ConnectionStrings["CinemaDB"].ConnectionString))
             {
                 con.Open();
-                
-                // Check if user already exists
+          
                 string checkQuery = "SELECT COUNT(*) FROM USERS WHERE USERNAME = :Username OR EMAIL = :Email";
                 using (OracleCommand checkCmd = new OracleCommand(checkQuery, con))
                 {
@@ -46,7 +44,7 @@ namespace MovieTicketSystem
             lblMessage.Text = "Registration Successful! You can now login.";
             lblMessage.CssClass = "badge bg-success bg-opacity-10 text-success p-2 border border-success border-opacity-25 w-100";
             
-            // Clear fields
+      
             txtUsername.Text = "";
             txtEmail.Text = "";
             txtPhone.Text = "";

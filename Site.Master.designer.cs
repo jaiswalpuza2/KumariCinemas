@@ -15,13 +15,85 @@ namespace MovieTicketSystem
     {
 
         /// <summary>
-        /// HeadContent control.
+        /// phAdminMenu control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder HeadContent;
+        protected global::System.Web.UI.WebControls.PlaceHolder phAdminMenu;
+
+        /// <summary>
+        /// phReportsMenu control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.PlaceHolder phReportsMenu;
+
+        /// <summary>
+        /// phAdminReportLinks control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.PlaceHolder phAdminReportLinks;
+
+        /// <summary>
+        /// phGuestLinks control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.PlaceHolder phGuestLinks;
+
+        /// <summary>
+        /// lnkLogin control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.HyperLink lnkLogin;
+
+        /// <summary>
+        /// lnkRegister control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.HyperLink lnkRegister;
+
+        /// <summary>
+        /// phUserLinks control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.PlaceHolder phUserLinks;
+
+        /// <summary>
+        /// litUserName control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Literal litUserName;
+
+        /// <summary>
+        /// btnLogout control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton btnLogout;
 
         /// <summary>
         /// MainContent control.
@@ -31,40 +103,5 @@ namespace MovieTicketSystem
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ContentPlaceHolder MainContent;
-
-        /// <summary>
-        /// phAdminMenu control.
-        /// </summary>
-        protected global::System.Web.UI.WebControls.PlaceHolder phAdminMenu;
-
-        /// <summary>
-        /// phReportsMenu control.
-        /// </summary>
-        protected global::System.Web.UI.WebControls.PlaceHolder phReportsMenu;
-
-        /// <summary>
-        /// phAdminReportLinks control.
-        /// </summary>
-        protected global::System.Web.UI.WebControls.PlaceHolder phAdminReportLinks;
-
-        /// <summary>
-        /// phGuestLinks control.
-        /// </summary>
-        protected global::System.Web.UI.WebControls.PlaceHolder phGuestLinks;
-
-        /// <summary>
-        /// phUserLinks control.
-        /// </summary>
-        protected global::System.Web.UI.WebControls.PlaceHolder phUserLinks;
-
-        /// <summary>
-        /// litUserName control.
-        /// </summary>
-        protected global::System.Web.UI.WebControls.Literal litUserName;
-
-        /// <summary>
-        /// btnLogout control.
-        /// </summary>
-        protected global::System.Web.UI.WebControls.LinkButton btnLogout;
     }
 }

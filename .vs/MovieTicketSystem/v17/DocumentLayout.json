@@ -1,10 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\user\\Downloads\\23049324 Puja Chaudhary\\code\\",
+  "WorkspaceRootPath": "C:\\Users\\user\\Downloads\\Data and Web\\23049324 Puja Chaudhary\\code\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{01379C89-4D6F-4D52-B409-90D80EB9AB91}|MovieTicketSystem.csproj|c:\\users\\user\\downloads\\23049324 puja chaudhary\\code\\register.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01379C89-4D6F-4D52-B409-90D80EB9AB91}|MovieTicketSystem.csproj|solutionrelative:register.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{01379C89-4D6F-4D52-B409-90D80EB9AB91}|MovieTicketSystem.csproj|c:\\users\\user\\downloads\\data and web\\23049324 puja chaudhary\\code\\setup.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{01379C89-4D6F-4D52-B409-90D80EB9AB91}|MovieTicketSystem.csproj|solutionrelative:setup.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,14 +23,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Register.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Downloads\\23049324 Puja Chaudhary\\code\\Register.aspx.cs",
-              "RelativeDocumentMoniker": "Register.aspx.cs",
-              "ToolTip": "C:\\Users\\user\\Downloads\\23049324 Puja Chaudhary\\code\\Register.aspx.cs",
-              "RelativeToolTip": "Register.aspx.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAowEQAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-18T15:01:32.495Z",
+              "Title": "Setup.aspx",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\Data and Web\\23049324 Puja Chaudhary\\code\\Setup.aspx",
+              "RelativeDocumentMoniker": "Setup.aspx",
+              "ToolTip": "C:\\Users\\user\\Downloads\\Data and Web\\23049324 Puja Chaudhary\\code\\Setup.aspx",
+              "RelativeToolTip": "Setup.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-03-23T06:03:13.368Z",
               "EditorCaption": ""
             }
           ]

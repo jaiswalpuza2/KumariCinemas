@@ -114,7 +114,7 @@
             font-size: 0.9rem;
         }
 
-        /* Standardized GridView for CRUD pages */
+   
         .gridview-container {
             background: var(--bg-card);
             border-radius: 16px;
@@ -152,7 +152,7 @@
             background-color: #f1f5f9;
         }
 
-        /* Form Controls */
+       
         .form-control, .form-select {
             background-color: #ffffff;
             border: 1px solid #e2e8f0;

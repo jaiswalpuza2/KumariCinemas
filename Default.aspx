@@ -4,7 +4,7 @@ Inherits="MovieTicketSystem.Default" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 <style>
-    /* Hero Section */
+   
     .cinema-hero {
         background: linear-gradient(135deg, rgba(79, 70, 229, 0.95), rgba(124, 58, 235, 0.95)), url('Content/cinema_hero_bg.png');
         background-size: cover;
@@ -44,13 +44,13 @@ Inherits="MovieTicketSystem.Default" %>
 
     .hero-subtext {
         font-size: 1.25rem;
-        color: #ffffff !important; /* SPECIFIC USER FIX: Pure White for High Contrast */
+        color: #ffffff !important;
         max-width: 600px;
         margin-bottom: 2.5rem;
         line-height: 1.6;
     }
 
-    /* Options Menu Grid */
+   
     .menu-grid {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -102,7 +102,7 @@ Inherits="MovieTicketSystem.Default" %>
         display: block;
     }
 
-    /* Graphical Dashboard Section */
+ 
     .dashboard-panel {
         background: white;
         border-radius: 32px;
@@ -142,7 +142,7 @@ Inherits="MovieTicketSystem.Default" %>
         color: var(--text-primary);
     }
 
-    /* Weekly Trends Chart */
+
     .booking-stats {
         display: flex;
         align-items: flex-end;

@@ -44,7 +44,7 @@
     </div>
 </div>
 <script>
-    // Show/hide message label based on text
+ 
     window.onload = function() {
         var lbl = document.getElementById('<%= lblMessage.ClientID %>');
         if (lbl && lbl.innerText.trim() !== "") {
